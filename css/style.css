@@ -1,0 +1,92 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 60vh;
+  min-width: 300px;
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #dbd6d6;
+}
+body .wrapper {
+  width: 400px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+}
+body .wrapper .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  height: 200px;
+  padding: 10px 20px;
+  font-family: "Dancing Script", cursive;
+  background-image: url("../img/pistachios-3450670_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+body .wrapper .header .shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+body .wrapper .header h1 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 24px;
+}
+body .wrapper .header .search {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+body .wrapper .drink-list {
+  padding: 20px 40px;
+}
+body .wrapper .drink-list h2 {
+  padding: 20px 0;
+}
+body .wrapper .drink-list ul {
+  padding-bottom: 10px;
+  font-size: 15px;
+  list-style: none;
+}
+body .wrapper .drink-list ul li {
+  padding: 8px 10px;
+  border-bottom: 1px solid rgb(224, 219, 219);
+}
+body .wrapper .drink-list ul li:last-child {
+  border-bottom: none;
+}/*# sourceMappingURL=style.css.map */
